@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+}
+.nav-main{
+    background-color: cadetblue;
+    padding: 60px;
+    
+}
+.nav-body{
+    list-style-type: none;
+   width:501px;
+   margin:0px 700px;
+}
+.nav-main-body a{
+    
+    padding:10px;
+    font-size: 20px;
+    color: darkslategray;
+    padding-right: 20px;
+
+}
+a:hover{ color: bisque;
+
+}
+.my-detail{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.img-one{
+    text-align:center;
+    width:600px;
+    margin-left: auto;
+}
+.nav-main-body{display:inline}
+.hi-detail{
+    padding-top: 4em;
+    padding-left: 15em;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.footer-one{
+    background-color: cadetblue;
+    padding:55px;
+    margin:0px;
+}
+.my-detail{
+    padding:100px;
+
+    margin:auto;
+}

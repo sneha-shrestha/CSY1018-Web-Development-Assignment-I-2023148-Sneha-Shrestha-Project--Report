@@ -1,0 +1,38 @@
+.mom-div{
+    display:flex;
+    height: 70vh;
+}
+.right_box{
+    margin:80px 300px;
+
+}
+.left_box{
+    margin:50px 200px;
+
+}
+form input{
+    padding:8px;
+    width:300px;
+    text-align: center;
+    border: 1px solid black;
+    margin:8px;
+}
+form textarea{
+    margin-left: 8px;
+    padding:8px;
+    width:300px;
+    text-align: center;
+    border: 1px solid black;
+}
+.submit button{ background-color: cadetblue;
+    color: black;
+    padding: 8px;
+
+}
+.submit{
+    text-align: center;
+    margin:5px 0px;
+}
+.submit button:hover{
+    background-color: antiquewhite;
+}
