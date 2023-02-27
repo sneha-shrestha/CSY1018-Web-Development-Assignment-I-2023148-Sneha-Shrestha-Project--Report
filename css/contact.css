@@ -1,13 +1,16 @@
 .mom-div{
     display:flex;
     height: 70vh;
+    background-color: #1F2833;
+    color: white;
 }
 .right_box{
-    margin:80px 300px;
+    margin:80px 0px;
+    width: 500px;
 
 }
 .left_box{
-    margin:50px 200px;
+    margin:110px 300px;
 
 }
 form input{
@@ -19,7 +22,7 @@ form input{
 }
 form textarea{
     margin-left: 8px;
-    padding:8px;
+    padding:50px;
     width:300px;
     text-align: center;
     border: 1px solid black;
@@ -30,8 +33,9 @@ form textarea{
 
 }
 .submit{
-    text-align: center;
-    margin:5px 0px;
+    text-align: left;
+    margin:8px 10px;
+    width: 300px;
 }
 .submit button:hover{
     background-color: antiquewhite;
