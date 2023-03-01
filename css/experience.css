@@ -29,13 +29,16 @@ body {
     height: 5em;
     background-color: #66FCF1;
     border-radius: 50px 0px;
+    padding: 20px 0px;
 }
 
+
+
 .card_head h3 {
-    width: 100px;
+    width: 200px;
     margin: 0px;
-    padding-top: 30px;
-    padding-left: 110px;
+    padding-top: 18px;
+    padding-left: 30px;
 }
 
 .card_body {
