@@ -27,7 +27,7 @@ body {
 .card_head {
     width: 300px;
     height: 5em;
-    background-color: #66FCF1;
+    background-color: rgb(241, 219, 192);
     border-radius: 50px 0px;
     padding: 20px 0px;
 }

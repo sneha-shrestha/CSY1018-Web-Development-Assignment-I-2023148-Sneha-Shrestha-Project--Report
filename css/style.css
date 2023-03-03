@@ -1,59 +1,92 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
 }
-.nav-main{
-    background-color:#66FCF1;
-    padding: 60px;
-    
+
+.nav-main {
+    background-color: rgb(200, 200, 200);
+    padding: 30px;
+
 }
-.nav-body{
+
+.nav-body {
     list-style-type: none;
-   width:701px;
-   margin:0px 700px;
+    width: 701px;
+    margin: 0px 700px;
 }
-.nav-main-body a{
-    
-    padding:10px;
+
+.nav-main-body a {
+
+    padding: 10px;
     font-size: 20px;
-    color: #1F2833;text-decoration: none;
+    color: #1F2833;
+    text-decoration: none;
     padding-right: 20px;
     font-size: 27px;
 
 }
-a:hover{ color:white;
+
+a:hover {
+    color: white;
 
 }
-.my-detail{
+
+.my-detail {
     padding-top: 1em;
-    padding-left: 1em;margin-top: 60px;
+    padding-left: 1em;
+    margin-top: 60px;
 }
-.img-one{
-    text-align:center;
-    width:600px;
-   margin-top: 150px;
+
+.img-one {
+    text-align: center;
+    width: 600px;
+    margin-top: 150px;
 }
-.img-one img{border-radius: 600px;width: 370px;height: 380px;}
-.nav-main-body{display:inline}
-.hi-detail{
+
+.img-one img {
+    border-radius: 500px;
+    width: 250px;
+    height: 380px;
+}
+
+.nav-main-body {
+    display: inline
+}
+
+.hi-detail {
     padding-top: 2n em;
     padding-left: 15em;
     font-family: 'Times New Roman', Times, serif;
-    
-}
-.footer-one{
-    background-color:#66FCF1;
-    padding:55px;
-    margin:0px;
-}
-.my-detail{
-    padding:100px;
 
- 
 }
-.main_body1{
-    background-color:#1F2833;
-    display: grid;grid-template-columns: 700px 700px;
-    grid-template-rows: 800px;
+
+.footer-one {
+    background-color: rgb(200, 200, 200);
+    padding: 55px;
+    margin: 0px;
 }
-.main_body1 h1{margin: 0px;}
-.main_body1 h2{color: #C5C6C7;line-height: 40px;}
+
+.my-detail {
+    padding: 100px;
+
+
+}
+
+.main_body1 {
+    background-image: url('../img/ribbon.webp');
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-attachment: fixed;
+}
+
+.main_body1 h1 {
+    margin: 0px;
+}
+
+.main_body1 h2 {
+    color: black;
+    line-height: 40px;
+}
