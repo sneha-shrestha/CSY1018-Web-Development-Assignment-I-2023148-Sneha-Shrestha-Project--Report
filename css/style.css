@@ -3,7 +3,9 @@ body {
 }
 
 .nav-main {
-    background-color: rgb(200, 200, 200);
+
+
+    background-color: #1F2833;
     padding: 30px;
 
 }
@@ -18,7 +20,7 @@ body {
 
     padding: 10px;
     font-size: 20px;
-    color: #1F2833;
+    color: white;
     text-decoration: none;
     padding-right: 20px;
     font-size: 27px;
@@ -26,15 +28,9 @@ body {
 }
 
 a:hover {
-    color: white;
-
+    color: aqua;
 }
 
-.my-detail {
-    padding-top: 1em;
-    padding-left: 1em;
-    margin-top: 60px;
-}
 
 .img-one {
     text-align: center;
@@ -43,8 +39,8 @@ a:hover {
 }
 
 .img-one img {
-    border-radius: 500px;
-    width: 250px;
+    border-radius: auto;
+    width: 300px;
     height: 380px;
 }
 
@@ -53,33 +49,34 @@ a:hover {
 }
 
 .hi-detail {
-    padding-top: 2n em;
+    padding-top: 2em;
     padding-left: 15em;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
 .footer-one {
-    background-color: rgb(200, 200, 200);
-    padding: 55px;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2833;
+    padding: 60px;
+    color: white;
+
+}
+
+
+
+hr {
     margin: 0px;
 }
 
-.my-detail {
-    padding: 100px;
-
-
-}
-
 .main_body1 {
-    background-image: url('../img/ribbon.webp');
+    height: 100vh;
+    background-color: #1F2833;
     display: grid;
-    grid-template-columns: 700px 700px;
+    grid-template-columns: 700px 500px;
     grid-template-rows: 640px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    background-attachment: fixed;
 }
 
 .main_body1 h1 {
@@ -87,6 +84,7 @@ a:hover {
 }
 
 .main_body1 h2 {
-    color: black;
+    color: rgb(200, 200, 200);
     line-height: 40px;
+    padding-top: 170px;
 }
