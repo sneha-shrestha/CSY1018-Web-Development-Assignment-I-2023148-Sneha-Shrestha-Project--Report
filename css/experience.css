@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: #1F2833;
+    background-image: linear-gradient(to bottom, #1F2833, darkslategrey);
 }
 
 .card_head {
@@ -48,4 +48,19 @@ body {
     margin: 0px auto;
     color: black;
     padding: 15px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .cuboid {
+        height: auto;
+    }
+
+    .mom_exp {
+        flex-direction: column;
+    }
+    .card_papa{
+        margin-top: 10px;
+    }
 }

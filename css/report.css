@@ -1,0 +1,23 @@
+.rio-main {
+    text-align: center;
+}
+
+.deo-main {
+    width: 1100px;
+    margin: auto;
+    font-family: serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #1F2833, darkslategrey);
+    color: white;
+    height: 100vh;
+}
+
+.descri {
+    margin: 0px;
+}
+
+.p_desc {
+    margin: 8px 0px;
+}

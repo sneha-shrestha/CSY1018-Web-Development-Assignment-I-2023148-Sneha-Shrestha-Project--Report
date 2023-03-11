@@ -1,27 +1,64 @@
 .mom-div {
-    display: flex;
-    height: 70vh;
-    background-color: #1F2833;
+    padding: 2em 0px;
+    height: auto;
     color: white;
+    background-image: linear-gradient(to bottom, #1F2833, darkslategrey);
+}
+
+.mom-div h1 {
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 .right_box {
-    margin: 80px 0px;
+    margin: auto;
     width: 500px;
 
 }
 
+.right_box form {
+    width: 410px;
+    margin: auto;
+    padding: 120px 50px;
+    background-image: linear-gradient(rgb(5, 43, 50), rgb(26, 91, 106) 25.63%, rgba(222, 225, 226, 1) 70.59%, rgb(90, 152, 146));
+    opacity: 0.7;
+    border-radius: 120px 0px;
+    animation-name: form;
+    animation-duration: 2s;
+}
+
+@keyframes form {
+    0% {
+        transform: rotate(0deg) scaleY(1.6);
+
+    }
+
+    40% {
+        transform: rotate(90deg);
+    }
+
+    60% {
+        transform: rotate(120deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .left_box {
-    margin: 110px 300px;
+    margin: 110px 170px;
 
 }
 
 form input {
-    padding: 8px;
+    padding: 12px;
     width: 300px;
     text-align: center;
     border: 1px solid black;
     margin: 8px;
+    border-radius: 1em;
 }
 
 form textarea {
@@ -30,11 +67,12 @@ form textarea {
     width: 300px;
     text-align: center;
     border: 1px solid black;
+    border-radius: 1em;
 }
 
 .submit button {
-    background-color: cadetblue;
-    color: black;
+    background-color: #1F2833;
+    color: white;
     padding: 8px;
 
 }
@@ -47,8 +85,24 @@ form textarea {
 
 .submit button:hover {
     background-color: antiquewhite;
+    color: #1F2833;
 }
 
 .footer-one {
     height: 120px;
+}
+@media only screen and (max-width: 700px){
+    .right_box{
+        width:auto;
+    }
+    form textarea{
+        width: auto;
+    }
+    .right_box form{
+        width:auto;
+        padding: 80px 50px;
+    }
+    .footer-one{
+        height: auto;
+    }
 }
