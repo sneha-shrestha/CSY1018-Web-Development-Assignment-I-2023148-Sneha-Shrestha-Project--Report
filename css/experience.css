@@ -30,6 +30,7 @@ body {
     background-color: rgb(241, 219, 192);
     border-radius: 50px 0px;
     padding: 20px 0px;
+    transition: 0.6s;
 }
 
 
@@ -51,6 +52,11 @@ body {
     border-radius: 30px;
 }
 
+.card_papa:hover .card_head {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
 @media only screen and (max-width: 700px) {
 
     .cuboid {
@@ -60,7 +66,9 @@ body {
     .mom_exp {
         flex-direction: column;
     }
-    .card_papa{
+
+    .card_papa {
         margin-top: 10px;
+        margin-left: 20px;
     }
 }

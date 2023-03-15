@@ -11,7 +11,11 @@
 body {
     background-image: linear-gradient(to bottom, #1F2833, darkslategrey);
     color: white;
-    height: 100vh;
+    height: auto;
+}
+
+.report_title {
+    text-align: center;
 }
 
 .descri {
@@ -20,4 +24,19 @@ body {
 
 .p_desc {
     margin: 8px 0px;
+}
+
+.parent_d {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.parent_d_left {
+    width: 540px;
+}
+
+.parent_d_right img {
+    width: 350px;
+    height: 230px;
 }
